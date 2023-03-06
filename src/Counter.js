@@ -23,7 +23,7 @@ function Counter({ initialCount}) {
  return(
     <div>
         <h1>
-            Count: <h3>{count}</h3>
+            Count: <h3 data-testid="count">{count}</h3>
         </h1>
         <div>
             <button onClick={increment}>Increase</button>
